@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    height: 100vh !important;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    color: #ff7200 !important;
+    font-family: Arial !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background: white;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: 25vw !important;
+}
+
+.nav-item {
+    margin-left: 5vh;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bolder !important;
+
+}
+
+.nav-link:hover {
+    color: #ff7200 !important;
+
+}
+
+#srch {
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-right: none;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    outline: none;
+}
+
+#btn {
+    background: #ff7200;
+    border: 2px solid #ff7200;
+
+    color: #fff;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btn:focus {
+    outline: none !important;
+}
+
+#content {
+    height: auto !important;
+    margin: auto !important;
+    color: #fff !important;
+    position: relative !important;
+}
+
+#content h1 {
+    font-family: 'Times New Roman' !important;
+    font-size: 50px !important;
+    padding-left: 20px !important;
+    letter-spacing: 2px !important;
+}
+
+#content span {
+    color: #ff7200;
+    font-size: 65px
+}
+
+#content .par {
+    padding-left: 20px !important;
+    padding-bottom: 25px !important;
+    font-family: Arial;
+    letter-spacing: 1.2px !important;
+    line-height: 30px !important;
+}
+
+#content #btn {
+    width: 160px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+#content #btn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+#btn:hover {
+    background-color: #fff !important;
+}
+
+
+/* login form design */
+
+.form-container {
+    display: flex;
+}
+
+.form {
+    width: 50vh;
+    height: 100%;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%); */
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 40px;
+    left: 870px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h2 {
+    width: 97%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 100px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #200fbb;
+}
+
+/* offering section start here */
+#offering {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.998);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.theme-text {
+    color: #ff0000d3;
+}
+
+#offering-header {
+    font-size: 30px !important;
+}
+
+#offering-header h1 {
+    border: green;
+    font-size: 60px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* card */
+#card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card {
+    /* position: relative; */
+    height: 20vh;
+    width: 16vw;
+    background: rgba(255, 255, 255, 0.23) !;
+    backdrop-filter: blur(7px);
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin: 10px 12px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px gray;
+}
+
+.card-header {
+    height: 50%;
+    width: 100%;
+    /* background: red; */
+}
+
+.card-header img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    padding: 0px 0px;
+
+}
+
+.card-body p {
+    color: blue;
+    font-size: 15px;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.card:hover .card-body {
+    color: #000000;
+    background: rgb(221, 124, 14);
+    transform-origin: left;
+    transition: all 1.2s;
+}
+
+.card:hover p {
+    color: white;
+}
+
+
+
+/* learning sction */
+
+#learning{
+    height: 100%;
+    width: 100%;
+    padding: 110px 0px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #learning .learning-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #learning .learning-container h2{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  #learning .learning-container h4{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  
+  .learning-container a button {
+    height: 100% !important;
+    width: 201px !important;
+    background: #ffba81 !important;
+    padding: 12px 17px !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 7px !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+    font-weight: 1000 !important;
+    font-size: 17px !important;
+}
+
+
+
+
+
+
+        /* 360 degree learning system */
+
+.teacherSystem{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(163,236,240,0.3), rgba(180,243,175,0.3));
+    /* opacity: ; */
+    margin-bottom: 40px;
+    padding: 100px 40px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    /* box-shadow: 2px 2px 100px rgb(192, 192, 192); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacherSystem .teacher-container{
+    height: 97%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 30px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.teacherSystem .teacher-left{
+    height: 100%;
+    width: 50%;
+    /* background: red; */
+}
+.teacher-left .img-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+}
+.teacherSystem .teacher-right{
+    height: 100%;
+    width: 50%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    /* background: rgb(255, 198, 198); */
+}
+
+.teacher-right .text-container{
+    height: 100%;
+    width: 100%;
+}
+
+.teacher-right .text-container a{
+    background: rgb(102, 51, 153);
+    text-decoration: none;
+    padding: 13px 14px;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.6s;
+}
+
+.teacher-right .text-container a:hover{
+    background: transparent;
+    color: #000;
+    border: 2px solid rgb(17, 0, 255);
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+  #App{
+    margin-bottom: 30px;
+    
+  }
+  .appleftcontent img{
+    height: 20vh;
+    width: 30%;
+  }
+  .appContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background: rgb(188, 188, 188);
+    border-radius: 8px;
+    box-shadow: 2px 2px 120px rgb(180, 180, 180);
+  }
+  .appContent #Appimg img{
+    height: 50vh;
+    width: 20vw;
+  }
+
+/* footer design starts here */
+.footer{
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.footer-container{
+    padding: 20px 40px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.col{
+    margin: 8px 60px;
+}
+
+.col a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.col h3{
+    color: #cd5c00;
+    font-size: 20px;
+}
+
+.f-items{
+    display: flex;
+    flex-direction: column;
+}
+.col a{
+    margin: 10px 2px;
+}
+#newsletter form input{
+    outline: none;
+    padding: 0px 2px;
+}
+
+#newsletter form button{
+    background: #cd5c00;
+    padding: 2px 3px;
+    border: none;
+    border-radius: 2px;
+}
+
+#newsletter form button:hover{
+    color: #cd5c00;
+    border: 1px solid #cd5c00;
+    background-color: transparent;
+}
+
+.col .logo{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    display: flex;
+}
+
+.col .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+/* footer design ends here */
+
+
+
+
+
+/* mobile view */
+
+
+@media only screen and (max-width: 930px) {
+    #card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .card {
+        /* position: relative; */
+        height: 40vh;
+        width: 30vw;
+        background: rgba(255, 255, 255, 0.23) !;
+        backdrop-filter: blur(7px);
+        /* border: 2px solid black; */
+        border-radius: 5px;
+        margin: 10px 12px;
+        overflow: hidden;
+        box-shadow: 2px 2px 12px gray;
+    }
+
+
+    #myloginform{
+        display: none;
+    }
+
+    .col {
+        margin: 8px 39px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        color: #ff7200 !important;
+        font-family: Arial !important;
+    }
+
+    #content {
+        width: 100%;
+        position: relative;
+    }
+
+    #content h1 {
+        font-family: 'Times New Roman';
+        font-size: 20px !important;
+        padding-left: 2px;
+        margin-top: -50px;
+    }
+
+    #content h1 span {
+        font-size: 10px;
+        display: none;
+    }
+
+    #content .par {
+        /* padding-left: 20px; */
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+        display: none;
+    }
+
+    #content #btn {
+        width: 70px;
+        background: #ff7200;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    #myloginform{
+        display: none;
+    }
+
+    /* offering section start here */
+    #offering {
+        background-color: rgba(255, 255, 255, 0.998);
+        backdrop-filter: blur(10px);
+    }
+    #offering-header h1 {
+        border: green;
+        font-size: 30px !important;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+
+   #card {
+        display: block;
+    } 
+
+    .card {
+        height: 20vh;
+        width: 80vw;
+    } 
+
+    .card-body p {
+        color: blue;
+        font-size: 16px;
+    }
+    .card-header {
+        height: 50%;
+        width: 100%;
+        /* background: red; */
+    }
+
+    #learning{
+        margin-top: 50px;
+        padding: 20px 5px;
+    }
+
+    .learning-container h2{
+        font-size: 20px !important;
+    }
+    .learning-container h4{
+        font-size: 14px !important;
+    }
+    .learning-container a button{
+        font-size: 15px !important;
+        width: 120px !important;
+        height: 100% !important;
+    }
+/* 360 degree teacher system */
+.teacherSystem{
+    padding: 10px 28px;
+}
+    .teacherSystem .teacher-container{
+        height: 97%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 30px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .teacher-right .text-container {
+        padding: 52px 0px;
+    }
+    .teacher-right .text-container h1{
+        font-size: large;
+    }
+    .teacher-right .text-container a{
+        background: rgb(102, 51, 153);
+        text-decoration: none;
+        padding: 3px 10px;
+        color: #fff;
+        border-radius: 3px;
+        transition: all 0.6s;
+        font-size: 10px;
+    }
+
+
+
+/* App section */
+    .appContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+      }
+      .appleftcontent img{
+        width: 100%;
+      }
+      .appContent #Appimg img{
+        height: 50vh;
+        width: 60vw;
+        margin-top: 10px;
+      }
+
+      .footer-container{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        margin: 8px 50px;
+    }
+
+
+    .col a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin: 1px 0px;
+    }
+    
+    .col h3{
+        color: #cd5c00;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="myform" name="form" onsubmit="return myform()">
+    <input type="text" name="name" id="name" >
+    <button>submit</button>
+    </form>
+
+
+
+    <script>
+        function myform() {
+            let x = document.getElementById('name').value;
+            if (x == "") {
+                alert("blank");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
